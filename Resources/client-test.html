@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client WebApi - WeatherForecast</title>
+</head>
+<body>
+    <h1>Client WebApi - WeatherForecast</h1>
+
+    <button onclick="loadData()">Load Weather Data</button>
+
+    <pre id="result" style="background:#f0f0f0; padding: 10px;"></pre>
+
+
+    <script>
+        async function loadData() {
+            const url = 'https://localhost:7002/weatherforecast';
+            try {                
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById('result').textContent = `Error: ${error.message}`;
+            }
+        }    
+    </script>
+</body>
+</html>

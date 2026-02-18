@@ -32,3 +32,4 @@ C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\refint\WebApi2026.dll
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.pdb
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.genruntimeconfig.cache
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\ref\WebApi2026.dll
+C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.sourcelink.json

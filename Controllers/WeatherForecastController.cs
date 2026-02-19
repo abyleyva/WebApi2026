@@ -13,9 +13,9 @@ namespace WebApi2026.Controllers
 
         private static WeatherForecast[] ListWeatherForecast;
 
+        //Constructor to initialize the ListWeatherForecast with random data
         public WeatherForecastController()
-        {
-            
+        {    
             ListWeatherForecast = Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -30,7 +30,7 @@ namespace WebApi2026.Controllers
         {
             return ListWeatherForecast;
         }
-
+        // Get a specific WeatherForecast by id (index in the array)
         [HttpGet("{id}")]
         public WeatherForecast GetById(int id)
         {

@@ -1,10 +1,12 @@
 @WebApi2026_HostAddress = https://localhost:7002
 
-GET {{WebApi2026_HostAddress}}/weatherforecast/
+GET {{WebApi2026_HostAddress}}/api/weatherforecast/
 Accept: application/json
+
 
 ###
 
-GET {{WebApi2026_HostAddress}}/weatherforecast
+@id=1
+GET {{WebApi2026_HostAddress}}/api/weatherforecast/{{id}}
 
 ###

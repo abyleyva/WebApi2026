@@ -11,11 +11,12 @@ var myAllowSpecificOrigins = "myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: myAllowSpecificOrigins,
-        p=>
+        p =>
         {
             p.AllowAnyHeader();
-            p.AllowAnyOrigin();
+            //p.AllowAnyOrigin();
             p.AllowAnyMethod();
+            p.WithOrigins("https://localhost:7002", "http://localhost:5072", "http://127.0.0.1:5500");
         }
     );
 });

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uY0jCHi02hM=",
+  "dgSpecHash": "gI2hSWsoHiw=",
   "success": true,
-  "projectFilePath": "/Users/abyleyva/projects/platzi/WebApi2026/WebApi2026.csproj",
+  "projectFilePath": "C:\\Projects\\platzi\\WebApi2026\\WebApi2026.csproj",
   "expectedPackageFiles": [
-    "/Users/abyleyva/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
-    "/Users/abyleyva/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\AbyLeyva\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\AbyLeyva\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

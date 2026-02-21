@@ -102,3 +102,9 @@ C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\refint\WebApi2026.dll
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.pdb
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.genruntimeconfig.cache
 C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\ref\WebApi2026.dll
+C:\Projects\platzi\WebApi2026\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\platzi\WebApi2026\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\platzi\WebApi2026\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\platzi\WebApi2026\bin\Debug\net10.0\Scalar.AspNetCore.dll
+C:\Projects\platzi\WebApi2026\bin\Debug\net10.0\WebApi2026.xml
+C:\Projects\platzi\WebApi2026\obj\Debug\net10.0\WebApi2026.xml

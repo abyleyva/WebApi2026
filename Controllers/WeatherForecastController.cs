@@ -24,18 +24,24 @@ namespace WebApi2026.Controllers
             })
             .ToArray();
         }
-
+        /// <summary>
+        /// Return all the WeatherForecasts in the ListWeatherForecast array, which is initialized with random data in the constructor.
+        /// </summary>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return ListWeatherForecast;
         }
-        // Get a specific WeatherForecast by id (index in the array)
+        /// <summary>
+        /// Get a specific WeatherForecast by id (index in the array)
+        /// </summary>
+        /// <param name="id">The id (index) of the WeatherForecast to retrieve</param>
+        /// <returns>The WeatherForecast with the specified id</returns>
         [HttpGet]
         [Route("{id}")]
         public ActionResult<WeatherForecast> GetById(int id)
         {
-            if (id>5 || id<0)
+            if (id>=5 || id<0)
             {
                 return BadRequest();
             }

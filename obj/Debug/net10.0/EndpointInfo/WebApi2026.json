@@ -1,23 +1,21 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "WebApi2026 | v1",
-    "version": "1.0.0"
-  },
-  "servers": [
-    {
-      "url": "https://localhost:7002"
+    "title": "API ForeCast Documentation By AbyLeyva",
+    "description": "Can get ramdon weather by preview list",
+    "contact": {
+      "name": "Aby Leyva",
+      "email": "me@abyleyva.com"
     },
-    {
-      "url": "http://localhost:5170"
-    }
-  ],
+    "version": "1.0"
+  },
   "paths": {
     "/api/WeatherForecast": {
       "get": {
         "tags": [
           "WeatherForecast"
         ],
+        "summary": "Return all the WeatherForecasts in the ListWeatherForecast array, which is initialized with random data in the constructor.",
         "operationId": "GetWeatherForecast",
         "responses": {
           "200": {
@@ -57,17 +55,15 @@
         "tags": [
           "WeatherForecast"
         ],
+        "summary": "Get a specific WeatherForecast by id (index in the array)",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "The id (index) of the WeatherForecast to retrieve",
             "required": true,
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
             }
           }
@@ -107,28 +103,20 @@
             "format": "date"
           },
           "temperatureC": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "temperatureF": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int32"
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
           },
           "summary": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       }
     }
   },

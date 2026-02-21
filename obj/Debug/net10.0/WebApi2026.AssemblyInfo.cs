@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApi2026")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06106c28b68db40663c611866b3ee2452b75fa74")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c85417fa598c68288a03eef28a5a7d10109784")]
->>>>>>> main
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+218eef82c0245f0aed30b6d8ddc6cbd160a9aad3")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApi2026")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApi2026")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

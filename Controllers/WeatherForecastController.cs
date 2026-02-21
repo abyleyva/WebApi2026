@@ -31,10 +31,15 @@ namespace WebApi2026.Controllers
             return ListWeatherForecast;
         }
         // Get a specific WeatherForecast by id (index in the array)
-        [HttpGet("{id}")]
-        public WeatherForecast GetById(int id)
+        [HttpGet]
+        [Route("{id}")]
+        public ActionResult<WeatherForecast> GetById(int id)
         {
-            return ListWeatherForecast[id];
+            if (id>5 || id<0)
+            {
+                return BadRequest();
+            }
+            return Ok(ListWeatherForecast[id]);
         }
     }
 }

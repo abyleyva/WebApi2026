@@ -59,7 +59,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(myAllowSpecificOrigins);
+
 
 app.UseHttpsRedirection();
 
@@ -71,5 +71,7 @@ app.UseRequestLogging();
 // End Custom Middleware
 
 app.MapControllers();
+
+app.UseCors(myAllowSpecificOrigins);
 
 app.Run();

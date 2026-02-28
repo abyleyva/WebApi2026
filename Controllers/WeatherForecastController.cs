@@ -13,6 +13,8 @@ namespace WebApi2026.Controllers
 
         private static WeatherForecast[] ListWeatherForecast;
 
+        private ILogger<WeatherForecastController> logger;
+
         //Constructor to initialize the ListWeatherForecast with random data
         public WeatherForecastController()
         {    
@@ -28,8 +30,9 @@ namespace WebApi2026.Controllers
         /// Return all the WeatherForecasts in the ListWeatherForecast array, which is initialized with random data in the constructor.
         /// </summary>
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get([FromServices] ILogger<WeatherForecastController> logger)
         {
+            logger.LogInformation("Returning all WeatherForecasts");
             return ListWeatherForecast;
         }
         /// <summary>

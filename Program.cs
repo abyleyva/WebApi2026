@@ -1,3 +1,4 @@
+using Microsoft.OpenApi;
 using Scalar.AspNetCore;
 using System.Buffers.Text;
 using System.Reflection;
@@ -7,7 +8,7 @@ using static System.Net.WebRequestMethods;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddLogging();
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -31,6 +32,19 @@ builder.Services.AddSwaggerGen(options =>
     var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFilename);
     options.IncludeXmlComments(xmlPath);
+
+options.AddSecurityDefinition("BasicAuth", new OpenApiSecurityScheme 
+{
+    Type = SecuritySchemeType.Http,
+    Scheme = "basic",
+    In= ParameterLocation.Header,
+    Description = "Basic Authentication header, use UserName and Password"
+});
+
+options.AddSecurityRequirement(document => new OpenApiSecurityRequirement()
+{
+    [new OpenApiSecuritySchemeReference("BasicAuth", document)] = []
+});
 });
 
 var myAllowSpecificOrigins = "myAllowSpecificOrigins";
@@ -62,6 +76,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
+
+app.UseBasicAuth();
 
 app.UseAuthorization();
 

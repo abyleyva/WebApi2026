@@ -7,20 +7,8 @@
       "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|c:\\projects\\platzi\\webapi2026\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|c:\\projects\\platzi\\webapi2026\\middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:middlewares\\requestloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|c:\\projects\\platzi\\webapi2026\\webapi2026.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:webapi2026.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|c:\\projects\\platzi\\webapi2026\\webapi2026.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:webapi2026.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|c:\\projects\\platzi\\webapi2026\\middlewares\\basicauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228D2E58-C5AC-EC54-275A-F873B35082C6}|WebApi2026.csproj|solutionrelative:middlewares\\basicauthmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,39 +46,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RequestLoggingMiddleware.cs",
-              "DocumentMoniker": "C:\\Projects\\platzi\\WebApi2026\\Middlewares\\RequestLoggingMiddleware.cs",
-              "RelativeDocumentMoniker": "Middlewares\\RequestLoggingMiddleware.cs",
-              "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\Middlewares\\RequestLoggingMiddleware.cs",
-              "RelativeToolTip": "Middlewares\\RequestLoggingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BasicAuthMiddleware.cs",
+              "DocumentMoniker": "C:\\Projects\\platzi\\WebApi2026\\Middlewares\\BasicAuthMiddleware.cs",
+              "RelativeDocumentMoniker": "Middlewares\\BasicAuthMiddleware.cs",
+              "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\Middlewares\\BasicAuthMiddleware.cs",
+              "RelativeToolTip": "Middlewares\\BasicAuthMiddleware.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T19:49:54.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebApi2026.http",
-              "DocumentMoniker": "C:\\Projects\\platzi\\WebApi2026\\WebApi2026.http",
-              "RelativeDocumentMoniker": "WebApi2026.http",
-              "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\WebApi2026.http",
-              "RelativeToolTip": "WebApi2026.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-02-21T19:46:38.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebApi2026.csproj",
-              "DocumentMoniker": "C:\\Projects\\platzi\\WebApi2026\\WebApi2026.csproj",
-              "RelativeDocumentMoniker": "WebApi2026.csproj",
-              "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\WebApi2026.csproj",
-              "RelativeToolTip": "WebApi2026.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-21T18:37:43.928Z"
+              "WhenOpened": "2026-02-28T19:34:50.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -100,22 +65,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T17:42:11.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Projects\\platzi\\WebApi2026\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Projects\\platzi\\WebApi2026\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T17:37:55.954Z",
               "EditorCaption": ""
             }
           ]

@@ -118,8 +118,20 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "BasicAuth": {
+        "type": "http",
+        "description": "Basic Authentication header, use UserName and Password",
+        "scheme": "basic"
+      }
     }
   },
+  "security": [
+    {
+      "BasicAuth": [ ]
+    }
+  ],
   "tags": [
     {
       "name": "WeatherForecast"
